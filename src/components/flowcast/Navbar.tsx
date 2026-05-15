@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const APP_URL = "https://your-flowcast-app.streamlit.app";
+const APP_URL = "https://flowcast-app.streamlit.app";
 
 const links = [
   { label: "Features", href: "#features" },

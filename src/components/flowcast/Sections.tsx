@@ -7,7 +7,7 @@ import {
 import personalImg from "@/assets/personal-mockup.jpg";
 import businessImg from "@/assets/business-mockup.jpg";
 
-const APP_URL = "https://your-flowcast-app.streamlit.app";
+const APP_URL = "https://flowcast-app.streamlit.app";
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
