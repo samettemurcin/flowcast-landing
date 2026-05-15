@@ -1,26 +1,35 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/flowcast/Navbar";
+import { Hero } from "@/components/flowcast/Hero";
+import {
+  Logos, Features, HowItWorks, ModeToggle, Pricing, Testimonials, CtaBanner, Footer,
+} from "@/components/flowcast/Sections";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "FlowCast — AI-Powered Financial Analytics & Forecasting" },
+      { name: "description", content: "Upload your bank data and instantly see where every dollar goes — with AI-powered forecasts up to 24 months ahead." },
+      { property: "og:title", content: "FlowCast — Understand Your Money. Forecast Your Future." },
+      { property: "og:description", content: "AI-powered financial analytics with 6–24 month forecasts. Free forever plan." },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="bg-app text-white min-h-screen overflow-x-hidden animate-in fade-in duration-700">
+      <Navbar />
+      <Hero />
+      <Logos />
+      <Features />
+      <HowItWorks />
+      <ModeToggle />
+      <Pricing />
+      <Testimonials />
+      <CtaBanner />
+      <Footer />
+    </main>
+  );
 }
