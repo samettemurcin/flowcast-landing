@@ -72,13 +72,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "FlowCast — AI-Powered Financial Analytics & Forecasting" },
-      { name: "description", content: "Upload your bank data and instantly see where every dollar goes — with AI-powered forecasts up to 24 months ahead." },
+      { title: "FlowCast  AI-Powered Financial Analytics & Forecasting" },
+      { name: "description", content: "Upload your bank data and instantly see where every dollar goes with AI-powered forecasts up to 24 months ahead." },
       { name: "author", content: "FlowCast" },
-      { property: "og:title", content: "FlowCast — Understand Your Money. Forecast Your Future." },
-      { property: "og:description", content: "AI-powered financial analytics with 6–24 month forecasts. Free forever plan." },
+      { property: "og:title", content: "FlowCast  AI-Powered Financial Analytics & Forecasting" },
+      { property: "og:description", content: "Upload your bank data and instantly see where every dollar goes with AI-powered forecasts up to 24 months ahead." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "FlowCast  AI-Powered Financial Analytics & Forecasting" },
+      { name: "twitter:description", content: "Upload your bank data and instantly see where every dollar goes with AI-powered forecasts up to 24 months ahead." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e9e8b3c1-d104-4b70-a189-2852b6009d1c/id-preview-6d821d88--4b686697-9469-44a5-925d-99eed0c02444.lovable.app-1778865334095.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e9e8b3c1-d104-4b70-a189-2852b6009d1c/id-preview-6d821d88--4b686697-9469-44a5-925d-99eed0c02444.lovable.app-1778865334095.png" },
     ],
     links: [
       {
