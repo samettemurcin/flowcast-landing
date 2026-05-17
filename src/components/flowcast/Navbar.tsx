@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const APP_URL = "https://flowcast-try.lovable.app";
+const APP_URL = "https://tryflowcast.lovable.app";
 
 const links = [
   { label: "Features", href: "#features" },
