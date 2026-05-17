@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Sparkles, Play } from "lucide-react";
 import dashboard from "@/assets/dashboard-hero.jpg";
 
-const APP_URL = "https://flowcast-try.lovable.app";
+const APP_URL = "https://tryflowcast.lovable.app";
 
 export function Hero() {
   return (
