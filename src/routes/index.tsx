@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="bg-app text-white min-h-screen overflow-x-hidden animate-in fade-in duration-700">
+    <main className="bg-white text-ink min-h-screen overflow-x-hidden animate-in fade-in duration-700">
       <Navbar />
       <Hero />
       <Logos />
