@@ -1,4 +1,4 @@
-# FlowCast Landing — Marketing Page
+# FlowCast Landing: Marketing Page
 
 > The public-facing landing page for FlowCast.
 
